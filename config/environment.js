@@ -38,6 +38,19 @@ module.exports = function(environment) {
             dropdownInDuration: 300,
             dropdownOutDuration: 300
         },
+        firebase: {
+            apiKey: "AIzaSyAl8vGq-In360wM9HKqHAfhQcZf4ahYO3k",
+            authDomain: "spechless-161a7.firebaseapp.com",
+            databaseURL: "https://spechless-161a7.firebaseio.com",
+            projectId: "spechless-161a7",
+            storageBucket: "spechless-161a7.appspot.com",
+            messagingSenderId: "343754338870"
+        },
+        contentSecurityPolicy: {
+            'script-src': "'self' 'unsafe-eval' apis.google.com",
+            'frame-src': "'self' https://*.firebaseapp.com",
+            'connect-src': "'self' wss://*.firebaseio.com https://*.googleapis.com"
+        },
 
         APP: {
             // Here you can pass flags/options to your application instance

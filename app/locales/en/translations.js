@@ -10,5 +10,6 @@ export default {
     // "key.with.interpolation": "Text with {{anInterpolation}}"
     'welcome': 'The welcome phrase',
     "localeFlag": "../../images/United_Kingdom.jpg",
+    "votos": "votes"
 
 };
