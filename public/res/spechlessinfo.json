@@ -1,0 +1,944 @@
+{
+    "categories": {
+        "cat1": {
+            "description": "Simplemente, aquel que haya gustado más. Darás 5 puntos al pintxo seleccionado.",
+            "edition": "-KcU6MI9NVlDMXiIN-SU",
+            "name": "Primer mejor pintxo"
+        },
+        "cat2": {
+            "description": "Bajo el mismo criterio, el segundo. Darás 3 puntos al pintxo seleccionado.",
+            "edition": "-KcU6MI9NVlDMXiIN-SU",
+            "name": "Segundo mejor pintxo"
+        },
+        "cat3": {
+            "description": "Bajo el mismo criterio, el tercero. Darás 1 punto al pintxo seleccionado.",
+            "edition": "-KcU6MI9NVlDMXiIN-SU",
+            "name": "Tercer mejor pintxo"
+        },
+        "cat4Original": {
+            "description": "El más novedoso, diferente y fuera de lo común.",
+            "edition": "-KcU6MI9NVlDMXiIN-SU",
+            "name": "Pintxo más original"
+        },
+        "cat5Emplatado": {
+            "description": "El que esté servido de una manera más bella y elegante.",
+            "edition": "-KcU6MI9NVlDMXiIN-SU",
+            "name": "Pintxo mejor emplatado"
+        },
+        "cat6Nombre": {
+            "description": "Simplemente, aquel nombre de pintxo que haya gustado más.",
+            "edition": "-KcU6MI9NVlDMXiIN-SU",
+            "name": "Mejor nombre de pintxo"
+        },
+        "cat7Alegato": {
+            "description": "Dado que todas las parejas deben presentar su pintxo antes de su degustación y defenderlo en los alegatos posteriores, se premiará el cómputo de presentación/alegato que haya gustado más. ",
+            "edition": "-KcU6MI9NVlDMXiIN-SU",
+            "name": "Mejor presentación y alegato"
+        }
+    },
+    "editions": {
+        "edition3": {
+            "category": {
+                "cat1": true,
+                "cat2": true,
+                "cat3": true,
+                "cat4Original": true,
+                "cat5Emplatado": true,
+                "cat6Nombre": true,
+                "cat7Alegato": true
+            },
+            "fecha": "2017-03-25 13:30",
+            "name": "EPISODE IV",
+            "team": {
+                "team01": true,
+                "team02": true,
+                "team03": true,
+                "team04": true,
+                "team05": true,
+                "team06": true,
+                "team07": true,
+                "team08": true,
+                "team09": true,
+                "team10": true,
+                "team11": true,
+                "team12": true,
+                "team13": true,
+                "team14": true
+            }
+        }
+    },
+    "pintxos": {
+        "pintxo02": {
+            "name": "MangoTónic",
+            "team": "team02"
+        },
+        "pintxo03": {
+            "name": "Buñuelos de salmorejo, porque me sale a mí del conejo",
+            "team": "team03"
+        },
+        "pintxo04": {
+            "name": "La Gran Chingada",
+            "team": "team04"
+        },
+        "pintxo05": {
+            "name": "La leyenda del Tamarindo",
+            "team": "team05"
+        },
+        "pintxo06": {
+            "name": "Juidiones from the La Farm",
+            "team": "team06"
+        },
+        "pintxo07": {
+            "name": "El pezón de Estela (pulpibiris)",
+            "team": "team07"
+        },
+        "pintxo08": {
+            "name": "Chipirón sobrasón",
+            "team": "team08"
+        },
+        "pintxo09": {
+            "name": "Juego de tronos",
+            "team": "team09"
+        },
+        "pintxo10": {
+            "name": "El pintxo te trinco, el pintxo te absorbo",
+            "team": "team10"
+        },
+        "pintxo12": {
+            "name": "Ratatoui",
+            "team": "team12"
+        }
+    },
+    "teams": {
+        "team00": {
+            "edition": {
+                "edition1": true,
+                "edition2": true,
+                "edition3": true
+            },
+            "name": "Con derecho a comer y votar",
+            "user": {
+                "-KfBVKIJnKpZtQYamt1A": true,
+                "-KfCKEAdw7uRBhDpf7nt": true,
+                "-KfRSo4AuTK1bidnu9jm": true,
+                "-KfSK7dZcETnvgu8cQ_f": true,
+                "-KfXQ4rzUfJim3dEBVWZ": true,
+                "-KfXoxZYCH_e76zNcFaT": true,
+                "-KfXpJDnM7o_4sRC87fe": true,
+                "-KfgSxzqTFFPF9GH1Sor": true,
+                "-KfmEup6kqDND5DpcT-Q": true,
+                "-Kfwh2RkWoy6rOZX19dm": true,
+                "-Kg1Iud1FyuTQxByFmGj": true,
+                "-Kg4UQF1NMWt2EXT5gkw": true,
+                "-Kg4orokN0CZznxEOO5I": true,
+                "-Kg4x66TeGqMLp4QCFZ5": true,
+                "-Kg4xI6bF8TbHoliYZfB": true,
+                "-Kg5-Y9fvTzAIzHC5Lxn": true
+            }
+        },
+        "team02": {
+            "edition": "edition3",
+            "hour": "13:30",
+            "name": "Los Mandingos",
+            "pintxo": "pintxo02",
+            "user": {
+                "-KfCXAinFILhSlT3lQLO": true,
+                "-Kg534DDlbMfwgyO-tss": true
+            }
+        },
+        "team03": {
+            "edition": "edition3",
+            "hour": "13:45",
+            "name": "Typical Spanish",
+            "pintxo": "pintxo03",
+            "user": {
+                "-KfCjk4tIQPBLx-tjmXJ": true,
+                "-Kg4TkaaOWVaW6jRs1kO": true
+            }
+        },
+        "team04": {
+            "edition": "edition3",
+            "hour": "14:00",
+            "name": "Los Espantaosos",
+            "pintxo": "pintxo04",
+            "user": {
+                "-KfBs3fEFyo2L6nxNZbH": true,
+                "-KfmCDZbFA3Am1SxN-up": true
+            }
+        },
+        "team05": {
+            "edition": "edition3",
+            "hour": "14:15",
+            "name": "Las alquimistas",
+            "pintxo": "pintxo05",
+            "user": {
+                "-KfRchJ9czt7P8XfCPzf": true,
+                "-KffjyFeKmf671_fS0OQ": true
+            }
+        },
+        "team06": {
+            "edition": "edition3",
+            "hour": "14:30",
+            "name": "Los Pintxo Pelota",
+            "pintxo": "pintxo06",
+            "user": {
+                "-KfBOBAAGIO7W7gJ5VoZ": true,
+                "-KfM2dTXsp272aOGUQJa": true
+            }
+        },
+        "team07": {
+            "edition": "edition3",
+            "hour": "14:45",
+            "name": "Tú a Boston y yo a California",
+            "pintxo": "pintxo07",
+            "user": {
+                "-KfWDFYgDJN8NtbfXPvg": true,
+                "-KfaUbTMPozBjjGVBe1H": true
+            }
+        },
+        "team08": {
+            "edition": "edition3",
+            "hour": "15:00",
+            "name": "Punto y final",
+            "pintxo": "pintxo08",
+            "user": {
+                "-KfLzqstSqCIGoXT2k8b": true,
+                "-KfgSaoHkawncL4yRQBN": true
+            }
+        },
+        "team09": {
+            "edition": "edition3",
+            "hour": "15:15",
+            "name": "Los reincidentes",
+            "pintxo": "pintxo09",
+            "user": {
+                "-KfBSf2hjww_34TJ290A": true,
+                "-KfCEbm5i0ok9SwoydKr": true
+            }
+        },
+        "team10": {
+            "edition": "edition3",
+            "hour": "15:30",
+            "name": "Cestos de mimbre",
+            "pintxo": "pintxo10",
+            "user": {
+                "-KfBJygUm_5tyBS1ijhp": true,
+                "-KfCjk4tIADMIN-tjmXJ": true
+            }
+        },
+        "team12": {
+            "edition": "edition3",
+            "hour": "15:45",
+            "name": "Pintxus Margnificus",
+            "pintxo": "pintxo12",
+            "user": {
+                "-KfBXUtp9rf4x_74oBkC": true,
+                "-KfCFxXWZmbEzk1GKY-d": true
+            }
+        }
+    },
+    "users": {
+        "-KfBJygUm_5tyBS1ijhp": {
+            "displayName": "CharlieGlamour",
+            "email": "carlaimprovisando@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "1AzIb7t3XTSOSQryioHYXgFBfMx1"
+        },
+        "-KfBOBAAGIO7W7gJ5VoZ": {
+            "displayName": "Elenois",
+            "email": "elenareigamoros@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "coQ9K7IRDTZGubK1lSXcFphIc0B2"
+        },
+        "-KfBSf2hjww_34TJ290A": {
+            "displayName": "Michi",
+            "email": "mfgaliano@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "1uMIJtWabrMgPTNBn4E1oZ6ZenA2"
+        },
+        "-KfBVKIJnKpZtQYamt1A": {
+            "displayName": "Pili",
+            "email": "facemulavaldo@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "LNbChZ99A1fK5fXtLhpLqRcwZoU2"
+        },
+        "-KfBXUtp9rf4x_74oBkC": {
+            "displayName": "Rouse",
+            "email": "rosamuneta@hotmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "avnXhGV6L9QgiR3FmLCvKaMj2K62"
+        },
+        "-KfBs3fEFyo2L6nxNZbH": {
+            "displayName": "Papá Oso",
+            "email": "jamr717@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "8RgoYPnJSyd78g0U4dATNZWNSzt2"
+        },
+        "-KfCEbm5i0ok9SwoydKr": {
+            "displayName": "Lauriña",
+            "email": "contact.laurafernandez@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "E0EpDHa8FNXqpshjnciqQ2kUjGw2"
+        },
+        "-KfCFxXWZmbEzk1GKY-d": {
+            "displayName": "Jimbo",
+            "email": "jaime_garciamartin@yahoo.es",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": true,
+            "uid": "h0abSeORgObROPwoAtJIPzWNSPf2"
+        },
+        "-KfCKEAdw7uRBhDpf7nt": {
+            "displayName": "Tere",
+            "email": "teresa.pujalte@yahoo.es",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "FsKCf7pZt1g0fYApSh6MLwMJGNL2"
+        },
+        "-KfCXAinFILhSlT3lQLO": {
+            "displayName": "Mandinga",
+            "email": "blanca.garciamartin@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "DdYbjwXznGZWaQxCDKKBlpQI2T03"
+        },
+        "-KfCjk4tIADMIN-tjmXJ": {
+            "displayName": "el Friki",
+            "email": "ferdycom@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": true,
+            "uid": "RkarOF23EDRlXdQm8Uo4PrXGMKl2"
+        },
+        "-KfCjk4tIQPBLx-tjmXJ": {
+            "displayName": "La chavala de típical espanis",
+            "email": "mleonfernandez@hotmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "BcdkZtzY8FNmDiKRdcXzB9RkmJI3"
+        },
+        "-KfLzqstSqCIGoXT2k8b": {
+            "displayName": "María",
+            "email": "mpasamar@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "VoFF041fPfVyMxunZhWl69oYmIy1"
+        },
+        "-KfM2dTXsp272aOGUQJa": {
+            "displayName": "Fer Por pelotas",
+            "email": "vigaramartin@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "wq6oIKOJcGaxvbtQfbZUzsdwPb63"
+        },
+        "-KfRSo4AuTK1bidnu9jm": {
+            "displayName": "Macorra",
+            "email": "cdelamacorra@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": true,
+            "uid": "sFSdpUoGyKO12UhD5NXH1IqLsnV2"
+        },
+        "-KfRchJ9czt7P8XfCPzf": {
+            "displayName": "Andrea Poole",
+            "email": "poole.237@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "rdEWP2Ue2yRKVoHSN3o62D4M9gF3"
+        },
+        "-KfRtGwzy4iYg_wQddv_": {
+            "displayName": "Carlos Pura vida",
+            "email": "carlosportillo75@yahoo.es",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "bPfEoX8Hh2SLIZ4u6lK2xIMRE9z1"
+        },
+        "-KfSK7dZcETnvgu8cQ_f": {
+            "displayName": "Jesús el amigo de los espantaosos",
+            "email": "jesus.dolera@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "l1g3WhxNEXRQ4LMsXWGhmCJXKkJ2"
+        },
+        "-KfWDFYgDJN8NtbfXPvg": {
+            "displayName": "martuky",
+            "email": "martavigara01@hotmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "8uE3xr8djEfun4C5oIcR6MxMOXs2"
+        },
+        "-KfXQ4rzUfJim3dEBVWZ": {
+            "displayName": "Javier.M",
+            "email": "javier.martin_m@yahoo.es",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "lrNLEvPUK6hIvFak456dxIFRisZ2"
+        },
+        "-KfXoxZYCH_e76zNcFaT": {
+            "displayName": "Rosa",
+            "email": "yeguadaagf@telefonica.net",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "hba6esRofOf6h4CL2L3xRUnJi1z2"
+        },
+        "-KfXpJDnM7o_4sRC87fe": {
+            "displayName": "Antonio",
+            "email": "rosafraguas10@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "XhcCRfinCYbbpXzyoVlWPhXSLpZ2"
+        },
+        "-KfaUbTMPozBjjGVBe1H": {
+            "displayName": "Miguel",
+            "email": "miguelsanchez9999@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "hzONpp2cwGhiASDLJd4aTsbs7GH3"
+        },
+        "-KffjyFeKmf671_fS0OQ": {
+            "displayName": "Sol",
+            "email": "solguzmanacha@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "7TWg88YG6ZPVxpMCTJofLNQk8TT2"
+        },
+        "-KfgSaoHkawncL4yRQBN": {
+            "displayName": "Caos",
+            "email": "angelesgarcia.arquitectos@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "KJwxRfKJGccuX74agyCXAcDcjsy1"
+        },
+        "-KfgSxzqTFFPF9GH1Sor": {
+            "displayName": "Alberto",
+            "email": "albertoruizsaiz22@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "q3GkDqcGV1QRRFQi8CcI7zOCQid2"
+        },
+        "-KfmCDZbFA3Am1SxN-up": {
+            "displayName": "Mama osa",
+            "email": "mgomezb5@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "RNINN2VIlrZcw9DnXIcw0vRo5Yj2"
+        },
+        "-KfmEup6kqDND5DpcT-Q": {
+            "displayName": "Luz",
+            "email": "luzdelmarb@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "SqryrLPev1ZG9Dp3z9O4CAvizoA3"
+        },
+        "-Kfwh2RkWoy6rOZX19dm": {
+            "displayName": "Jesu",
+            "email": "jesdan27@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "H0uq0YlM9xT29sYbquIzYjxStGF3"
+        },
+        "-Kg1Iud1FyuTQxByFmGj": {
+            "displayName": "Soros",
+            "email": "sorospen@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "qE0TnxtrnwcTbl3lN7PCkzLgf062"
+        },
+        "-Kg4TkaaOWVaW6jRs1kO": {
+            "displayName": "Rafa el típico",
+            "email": "rmg497@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "y4CF9IsSz8Xo9P26H9QMVYitG6T2"
+        },
+        "-Kg4UQF1NMWt2EXT5gkw": {
+            "displayName": "Juanqui",
+            "email": "jcjimenez@anypixel.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "Zti5Xac72PTXX7B33QqVPzImDsz2"
+        },
+        "-Kg4orokN0CZznxEOO5I": {
+            "displayName": "Pablo",
+            "email": "irenesoros95@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "EcP05D6ShvfYX6MXudFdW0mzcRn2"
+        },
+        "-Kg4x66TeGqMLp4QCFZ5": {
+            "displayName": "Chema",
+            "email": "jmgarcia@trsa.es",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "5ORdMXoeUVZ0QqZkYuGvytt3NtH2"
+        },
+        "-Kg4xI6bF8TbHoliYZfB": {
+            "displayName": "Sousa",
+            "email": "sousacano@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "EUirlNgJ6qMRCk86EkxYoCrkJEX2"
+        },
+        "-Kg5-Y9fvTzAIzHC5Lxn": {
+            "displayName": "Cookie",
+            "email": "fernando.vigara@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "1XOSMNYZrXZv3cPyO6s2MahqP7D3"
+        },
+        "-Kg534DDlbMfwgyO-tss": {
+            "displayName": "Rodrigo",
+            "email": "rodrigo.fernandez.sandoval@gmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "6brhL2yhyCfonuZGwEA1Ivf11gD2"
+        },
+        "-Kg5cQnHDbFlHAdf9jT7": {
+            "displayName": "Maria",
+            "email": "mpasamar@hotmail.com",
+            "emailVerified": false,
+            "isActive": true,
+            "isAdmin": false,
+            "uid": "2CVLgKMckmZpUfVQ0Ak4Gc8PTCO2"
+        }
+    },
+    "votos": {
+        "-Kg5cvVeVhhgGrp_zfAu": {
+            "cat1": "Pintxus Margnificus",
+            "cat2": "Las alquimistas",
+            "cat3": "Los Espantaosos",
+            "cat4Original": "Tú a Boston y yo a California",
+            "cat5Emplatado": "Cestos de mimbre",
+            "cat6Nombre": "Typical Spanish",
+            "cat7Alegato": "Cestos de mimbre",
+            "edition": "edition3",
+            "user": "y4CF9IsSz8Xo9P26H9QMVYitG6T2"
+        },
+        "-Kg5d-CpW6w3OyBue5v7": {
+            "cat1": "Punto y final",
+            "cat2": "Pintxus Margnificus",
+            "cat3": "Los Mandingos",
+            "cat4Original": "Los reincidentes",
+            "cat5Emplatado": "Punto y final",
+            "cat6Nombre": "Cestos de mimbre",
+            "cat7Alegato": "Los Pintxo Pelota",
+            "edition": "edition3",
+            "user": "H0uq0YlM9xT29sYbquIzYjxStGF3"
+        },
+        "-Kg5d4W5WYwhiaWsdjnd": {
+            "cat1": "Pintxus Margnificus",
+            "cat2": "Las alquimistas",
+            "cat3": "Cestos de mimbre",
+            "cat4Original": "Pintxus Margnificus",
+            "cat5Emplatado": "Punto y final",
+            "cat6Nombre": "Cestos de mimbre",
+            "cat7Alegato": "Cestos de mimbre",
+            "edition": "edition3",
+            "user": "6brhL2yhyCfonuZGwEA1Ivf11gD2"
+        },
+        "-Kg5d4YDPl0oAHMSGwyA": {
+            "cat1": "Las alquimistas",
+            "cat2": "Tú a Boston y yo a California",
+            "cat3": "Cestos de mimbre",
+            "cat4Original": "Los reincidentes",
+            "cat5Emplatado": "Las alquimistas",
+            "cat6Nombre": "Tú a Boston y yo a California",
+            "cat7Alegato": "Cestos de mimbre",
+            "edition": "edition3",
+            "user": "hzONpp2cwGhiASDLJd4aTsbs7GH3"
+        },
+        "-Kg5d53e_nG4k66k0j9Z": {
+            "cat1": "Los reincidentes",
+            "cat2": "Cestos de mimbre",
+            "cat3": "Pintxus Margnificus",
+            "cat4Original": "Las alquimistas",
+            "cat5Emplatado": "Los reincidentes",
+            "cat6Nombre": "Typical Spanish",
+            "cat7Alegato": "Pintxus Margnificus",
+            "edition": "edition3",
+            "user": "wq6oIKOJcGaxvbtQfbZUzsdwPb63"
+        },
+        "-Kg5d5h1JnsKm9FTLtYP": {
+            "cat1": "Los Espantaosos",
+            "cat2": "Pintxus Margnificus",
+            "cat3": "Los Mandingos",
+            "cat4Original": "Las alquimistas",
+            "cat5Emplatado": "Los Mandingos",
+            "cat6Nombre": "Typical Spanish",
+            "cat7Alegato": "Cestos de mimbre",
+            "edition": "edition3",
+            "user": "2CVLgKMckmZpUfVQ0Ak4Gc8PTCO2"
+        },
+        "-Kg5d7m_wnRscuovkEhy": {
+            "cat1": "Tú a Boston y yo a California",
+            "cat2": "Typical Spanish",
+            "cat3": "Punto y final",
+            "cat4Original": "Pintxus Margnificus",
+            "cat5Emplatado": "Los Mandingos",
+            "cat6Nombre": "Tú a Boston y yo a California",
+            "cat7Alegato": "Cestos de mimbre",
+            "edition": "edition3",
+            "user": "Zti5Xac72PTXX7B33QqVPzImDsz2"
+        },
+        "-Kg5dCuAQj_3DJlfqt5n": {
+            "cat1": "Pintxus Margnificus",
+            "cat2": "Los Espantaosos",
+            "cat3": "Los Pintxo Pelota",
+            "cat4Original": "Los Mandingos",
+            "cat5Emplatado": "Punto y final",
+            "cat6Nombre": "Cestos de mimbre",
+            "cat7Alegato": "Los Pintxo Pelota",
+            "edition": "edition3",
+            "user": "1uMIJtWabrMgPTNBn4E1oZ6ZenA2"
+        },
+        "-Kg5dDmlgqRna0rkvECX": {
+            "cat1": "Los Mandingos",
+            "cat2": "Los reincidentes",
+            "cat3": "Las alquimistas",
+            "cat4Original": "Los Mandingos",
+            "cat5Emplatado": "Los reincidentes",
+            "cat6Nombre": "Cestos de mimbre",
+            "cat7Alegato": "Los Pintxo Pelota",
+            "edition": "edition3",
+            "user": "KJwxRfKJGccuX74agyCXAcDcjsy1"
+        },
+        "-Kg5dOvtmEr9Iv3gJTgV": {
+            "cat1": "Las alquimistas",
+            "cat2": "Los Mandingos",
+            "cat3": "Typical Spanish",
+            "cat4Original": "Las alquimistas",
+            "cat5Emplatado": "Punto y final",
+            "cat6Nombre": "Typical Spanish",
+            "cat7Alegato": "Los Pintxo Pelota",
+            "edition": "edition3",
+            "user": "1AzIb7t3XTSOSQryioHYXgFBfMx1"
+        },
+        "-Kg5dY0Rtry8DIwJf5JR": {
+            "cat1": "Los Mandingos",
+            "cat2": "Las alquimistas",
+            "cat3": "Los Espantaosos",
+            "cat4Original": "Los Mandingos",
+            "cat5Emplatado": "Punto y final",
+            "cat6Nombre": "Cestos de mimbre",
+            "cat7Alegato": "Pintxus Margnificus",
+            "edition": "edition3",
+            "user": "hba6esRofOf6h4CL2L3xRUnJi1z2"
+        },
+        "-Kg5eBbIW6Y-wuWPhrIz": {
+            "cat1": "Los Espantaosos",
+            "cat2": "Las alquimistas",
+            "cat3": "Punto y final",
+            "cat4Original": "Pintxus Margnificus",
+            "cat5Emplatado": "Los reincidentes",
+            "cat6Nombre": "Las alquimistas",
+            "cat7Alegato": "Los Pintxo Pelota",
+            "edition": "edition3",
+            "user": "BcdkZtzY8FNmDiKRdcXzB9RkmJI3"
+        },
+        "-Kg5eFYHz9-VkGuwvnBo": {
+            "cat1": "Las alquimistas",
+            "cat2": "Cestos de mimbre",
+            "cat3": "Los reincidentes",
+            "cat4Original": "Cestos de mimbre",
+            "cat5Emplatado": "Los Mandingos",
+            "cat6Nombre": "Tú a Boston y yo a California",
+            "cat7Alegato": "Pintxus Margnificus",
+            "edition": "edition3",
+            "user": "q3GkDqcGV1QRRFQi8CcI7zOCQid2"
+        },
+        "-Kg5eLaTul2sjHQj5rVw": {
+            "cat1": "Tú a Boston y yo a California",
+            "cat2": "Pintxus Margnificus",
+            "cat3": "Los Mandingos",
+            "cat4Original": "",
+            "cat5Emplatado": "Los reincidentes",
+            "cat6Nombre": "Los Pintxo Pelota",
+            "cat7Alegato": "Cestos de mimbre",
+            "edition": "edition3",
+            "user": "rdEWP2Ue2yRKVoHSN3o62D4M9gF3"
+        },
+        "-Kg5eStv0ccqb1itR0ve": {
+            "cat1": "Punto y final",
+            "cat2": "Los Mandingos",
+            "cat3": "Los Espantaosos",
+            "cat4Original": "Pintxus Margnificus",
+            "cat5Emplatado": "Los reincidentes",
+            "cat6Nombre": "Pintxus Margnificus",
+            "cat7Alegato": "Los Pintxo Pelota",
+            "edition": "edition3",
+            "user": "lrNLEvPUK6hIvFak456dxIFRisZ2"
+        },
+        "-Kg5eYBRXE80Nnh65VU6": {
+            "cat1": "Los Espantaosos",
+            "cat2": "Los Mandingos",
+            "cat3": "Pintxus Margnificus",
+            "cat4Original": "Las alquimistas",
+            "cat5Emplatado": "Punto y final",
+            "cat6Nombre": "Las alquimistas",
+            "cat7Alegato": "Cestos de mimbre",
+            "edition": "edition3",
+            "user": "sFSdpUoGyKO12UhD5NXH1IqLsnV2"
+        },
+        "-Kg5efio4d6gVgW2nSu-": {
+            "cat1": "Los Mandingos",
+            "cat2": "Punto y final",
+            "cat3": "Pintxus Margnificus",
+            "cat4Original": "Cestos de mimbre",
+            "cat5Emplatado": "Pintxus Margnificus",
+            "cat6Nombre": "Cestos de mimbre",
+            "cat7Alegato": "Los Pintxo Pelota",
+            "edition": "edition3",
+            "user": "7TWg88YG6ZPVxpMCTJofLNQk8TT2"
+        },
+        "-Kg5ejQvMU0Ow0REVRDm": {
+            "cat1": "Los Espantaosos",
+            "cat2": "Los Mandingos",
+            "cat3": "Pintxus Margnificus",
+            "cat4Original": "Los Mandingos",
+            "cat5Emplatado": "Las alquimistas",
+            "cat6Nombre": "Cestos de mimbre",
+            "cat7Alegato": "Los Pintxo Pelota",
+            "edition": "edition3",
+            "user": "E0EpDHa8FNXqpshjnciqQ2kUjGw2"
+        },
+        "-Kg5eoJfpDbEtYzMFapt": {
+            "cat1": "Las alquimistas",
+            "cat2": "Punto y final",
+            "cat3": "Cestos de mimbre",
+            "cat4Original": "Las alquimistas",
+            "cat5Emplatado": "Los Mandingos",
+            "cat6Nombre": "Los Espantaosos",
+            "cat7Alegato": "Pintxus Margnificus",
+            "edition": "edition3",
+            "user": "qE0TnxtrnwcTbl3lN7PCkzLgf062"
+        },
+        "-Kg5f2ifn8RmDbONvaJ6": {
+            "cat1": "Cestos de mimbre",
+            "cat2": "Pintxus Margnificus",
+            "cat3": "Las alquimistas",
+            "cat4Original": "Las alquimistas",
+            "cat5Emplatado": "Las alquimistas",
+            "cat6Nombre": "Los Espantaosos",
+            "cat7Alegato": "Pintxus Margnificus",
+            "edition": "edition3",
+            "user": "5ORdMXoeUVZ0QqZkYuGvytt3NtH2"
+        },
+        "-Kg5fHpuqbksbGYCNOR4": {
+            "cat1": "Las alquimistas",
+            "cat2": "Typical Spanish",
+            "cat3": "Los Mandingos",
+            "cat4Original": "Las alquimistas",
+            "cat5Emplatado": "Los reincidentes",
+            "cat6Nombre": "Punto y final",
+            "cat7Alegato": "Los Pintxo Pelota",
+            "edition": "edition3",
+            "user": "avnXhGV6L9QgiR3FmLCvKaMj2K62"
+        },
+        "-Kg5fkTP3-9CMWaNwjLf": {
+            "cat1": "Las alquimistas",
+            "cat2": "Typical Spanish",
+            "cat3": "Los Espantaosos",
+            "cat4Original": "Pintxus Margnificus",
+            "cat5Emplatado": "Cestos de mimbre",
+            "cat6Nombre": "Cestos de mimbre",
+            "cat7Alegato": "Cestos de mimbre",
+            "edition": "edition3",
+            "user": "l1g3WhxNEXRQ4LMsXWGhmCJXKkJ2"
+        },
+        "-Kg5frc6-x85OR4aSOMC": {
+            "cat1": "Las alquimistas",
+            "cat2": "Punto y final",
+            "cat3": "Typical Spanish",
+            "cat4Original": "Los reincidentes",
+            "cat5Emplatado": "Las alquimistas",
+            "cat6Nombre": "Punto y final",
+            "cat7Alegato": "Cestos de mimbre",
+            "edition": "edition3",
+            "user": "DdYbjwXznGZWaQxCDKKBlpQI2T03"
+        },
+        "-Kg5fwf-SOk_CrhR-wru": {
+            "cat1": "Los Mandingos",
+            "cat2": "Las alquimistas",
+            "cat3": "Los Espantaosos",
+            "cat4Original": "Las alquimistas",
+            "cat5Emplatado": "Los reincidentes",
+            "cat6Nombre": "Cestos de mimbre",
+            "cat7Alegato": "Los Pintxo Pelota",
+            "edition": "edition3",
+            "user": "h0abSeORgObROPwoAtJIPzWNSPf2"
+        },
+        "-Kg5gG_yI3W6yK92cCKP": {
+            "cat1": "Los Espantaosos",
+            "cat2": "Las alquimistas",
+            "cat3": "Typical Spanish",
+            "cat4Original": "Las alquimistas",
+            "cat5Emplatado": "Las alquimistas",
+            "cat6Nombre": "Cestos de mimbre",
+            "cat7Alegato": "Pintxus Margnificus",
+            "edition": "edition3",
+            "user": "SqryrLPev1ZG9Dp3z9O4CAvizoA3"
+        },
+        "-Kg5gPRbpi6dkzGMEpmv": {
+            "cat1": "Las alquimistas",
+            "cat2": "Punto y final",
+            "cat3": "Cestos de mimbre",
+            "cat4Original": "Cestos de mimbre",
+            "cat5Emplatado": "",
+            "cat6Nombre": "Typical Spanish",
+            "cat7Alegato": "Los Mandingos",
+            "edition": "edition3",
+            "user": "8uE3xr8djEfun4C5oIcR6MxMOXs2"
+        },
+        "-Kg5gaMiIdHu2bX7Rs29": {
+            "cat1": "Los Pintxo Pelota",
+            "cat2": "Typical Spanish",
+            "cat3": "Las alquimistas",
+            "cat4Original": "Los Pintxo Pelota",
+            "cat5Emplatado": "Los Mandingos",
+            "cat6Nombre": "Cestos de mimbre",
+            "cat7Alegato": "Cestos de mimbre",
+            "edition": "edition3",
+            "user": "8RgoYPnJSyd78g0U4dATNZWNSzt2"
+        },
+        "-Kg5iqUbIxsV6O1UPQPH": {
+            "cat1": "Punto y final",
+            "cat2": "Las alquimistas",
+            "cat3": "Los Mandingos",
+            "cat4Original": "Las alquimistas",
+            "cat5Emplatado": "Los Espantaosos",
+            "cat6Nombre": "Los reincidentes",
+            "cat7Alegato": "Los Pintxo Pelota",
+            "edition": "edition3",
+            "user": "EcP05D6ShvfYX6MXudFdW0mzcRn2"
+        },
+        "-Kg5jFVrMgq11cOnH6TL": {
+            "cat1": "Los Mandingos",
+            "cat2": "Typical Spanish",
+            "cat3": "Los Pintxo Pelota",
+            "cat4Original": "Punto y final",
+            "cat5Emplatado": "Los Espantaosos",
+            "cat6Nombre": "Cestos de mimbre",
+            "cat7Alegato": "Los Pintxo Pelota",
+            "edition": "edition3",
+            "user": "LNbChZ99A1fK5fXtLhpLqRcwZoU2"
+        },
+        "-Kg5kapxnzstiEou7qwN": {
+            "cat1": "Los Espantaosos",
+            "cat2": "Los Pintxo Pelota",
+            "cat3": "Las alquimistas",
+            "cat4Original": "Los reincidentes",
+            "cat5Emplatado": "Los reincidentes",
+            "cat6Nombre": "Typical Spanish",
+            "cat7Alegato": "Los Pintxo Pelota",
+            "edition": "edition3",
+            "user": "RkarOF23EDRlXdQm8Uo4PrXGMKl2"
+        },
+        "antonioVoto": {
+            "cat1": "Los Mandingos",
+            "cat2": "Los Espantaosos",
+            "cat3": "Las alquimistas",
+            "cat4Original": "Cestos de mimbre",
+            "cat5Emplatado": "Las alquimistas",
+            "cat6Nombre": "",
+            "cat7Alegato": "Pintxus Margnificus",
+            "edition": "edition3",
+            "user": "XhcCRfinCYbbpXzyoVlWPhXSLpZ2"
+        },
+        "cookieVoto": {
+            "cat1": "Las alquimistas",
+            "cat2": "Los Mandingos",
+            "cat3": "Pintxus Margnificus",
+            "cat4Original": "Los Mandingos",
+            "cat5Emplatado": "Las alquimistas",
+            "cat6Nombre": "Las alquimistas",
+            "cat7Alegato": "Los Pintxo Pelota",
+            "edition": "edition3",
+            "user": "1XOSMNYZrXZv3cPyO6s2MahqP7D3"
+        },
+        "pujalteVoto": {
+            "cat1": "Las alquimistas",
+            "cat2": "Punto y final",
+            "cat3": "Typical Spanish",
+            "cat4Original": "Los Mandingos",
+            "cat5Emplatado": "Punto y final",
+            "cat6Nombre": "Los Espantaosos",
+            "cat7Alegato": "Cestos de mimbre",
+            "edition": "edition3",
+            "user": "FsKCf7pZt1g0fYApSh6MLwMJGNL2"
+        },
+        "rafaVoto": {
+            "cat1": "Las alquimistas",
+            "cat2": "Los Mandingos",
+            "cat3": "Los Pintxo Pelota",
+            "cat4Original": "Las alquimistas",
+            "cat5Emplatado": "Las alquimistas",
+            "cat6Nombre": "Las alquimistas",
+            "cat7Alegato": "Los Pintxo Pelota",
+            "edition": "edition3",
+            "user": "EUirlNgJ6qMRCk86EkxYoCrkJEX2"
+        },
+        "mamaOsaVoto": {
+            "cat1": "Typical Spanish",
+            "cat2": "Las alquimistas",
+            "cat3": "Pintxus Margnificus",
+            "cat4Original": "Los Mandingos",
+            "cat5Emplatado": "Los reincidentes",
+            "cat6Nombre": "Cestos de mimbre",
+            "cat7Alegato": "Cestos de mimbre",
+            "edition": "edition3",
+            "user": "RNINN2VIlrZcw9DnXIcw0vRo5Yj2"
+        },
+        "elenaVoto": {
+            "cat1": "Los Mandingos",
+            "cat2": "Punto y final",
+            "cat3": "Pintxus Margnificus",
+            "cat4Original": "Typical Spanish",
+            "cat5Emplatado": "Los Espantaosos",
+            "cat6Nombre": "",
+            "cat7Alegato": "Cestos de mimbre",
+            "edition": "edition3",
+            "user": "coQ9K7IRDTZGubK1lSXcFphIc0B2"
+        }
+    }
+}

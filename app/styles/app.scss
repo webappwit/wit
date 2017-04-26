@@ -1,0 +1,40 @@
+// Fix for Roboto font path
+$roboto-font-path: '../assets/';
+@import 'components/color';
+// Custom color settings go here 
+$primary-color: color("orange", "lighten-2");
+@import 'components/variables';
+@import 'materialize';
+@import 'ember-cli-materialize';
+body {
+    /* Location of the image */
+    background-image: url(/agua.png);
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
+     on the container's size */
+    background-size: cover;
+    /* Set a background color that will be displayed
+     while the background image is loading */
+    background-color: $primary-color;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+        background-image: url(/agua.png);
+    }
+}
+
+.icon-flag {
+    display: inline-block;
+    height: 20px;
+    width: 30px;
+}

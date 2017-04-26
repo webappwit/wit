@@ -1,5 +1,48 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+  <div class="fixed-action-btn horizontal">
+    <a class="btn-floating btn-large transparent">
+      <i class="large"><img src="{{t 'localeFlag'}}" class="icon-flag"></i>
+    </a>
+    <ul>
+{{#each languages as |language|}}
+<li>
+	<a class="btn-floating transparent" href="#" {{action 'changeLocale' language.code}} name="{{language.code}}"><i class="material-icons"><img src="{{language.flagUrl}}" class="icon-flag"></i></a>
+</li>
+{{/each}}
+    </ul>
+  </div>
 
-{{outlet}}
+    <div class="row">
+        <div class="col s10 m6 offset-s1 offset-m3">
+  {{#md-card title=(moment-from-now (now) interval=1000)
+    image="favicon.png"
+    class="card transparent white-text z-depth-5"
+    activator=true
+    id="card-reveal"}}
+
+    {{#md-card-content class="card-content white-text"}}
+    {{#md-card-action class="card-action white-text"}}
+<!--
+        {{#link-to "application" class='btn-floating waves-effect waves-light red' title='registro'}}<i class="large material-icons">power_settings_new</i>{{/link-to}}
+        {{#link-to "application" class='btn-floating right waves-effect waves-light green' title='login'}}<i class="large material-icons">lock_outline</i>{{/link-to}}
+-->
+    {{/md-card-action}}
+    {{/md-card-content}}
+
+    {{#md-card-reveal class="card-reveal black-text"}}
+              <p>{{t 'welcome'}}</p>
+<!--              <p>ember install ember-cli-materialize</p>
+              <p>Configurar defaults en environment.js y defaults en style.scss</p>
+              <p>ember install ember-i18n</p>
+              <p>npm install ember-i18n --save-dev</p>
+              <p>ember g locale es && ember g locale en</p>
+              <p>Configurar defaults en environment.js</p>
+              <p>ember install ember-cli-favicon</p>
+              <p>ember install ember-moment</p>
+              <p>Actualiza .jshintrc con moment: true y configura environment.js</p>
+              <p></p>
+ -->             <p></p>
+              <p></p>
+    {{/md-card-reveal}}
+{{/md-card}}
+      </div>
+</div>
