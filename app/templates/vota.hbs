@@ -1,0 +1,104 @@
+<!--p>
+	<div class="chip">
+    <i class="material-icons">perm_identity</i>
+              spechless: {{spechlesses.length}}
+  </div>
+</p>
+<p>
+	<div class="chip">
+    <i class="material-icons">thumb_up</i>
+              {{t 'votos'}}: {{votos.length}}
+  </div>
+</p-->
+
+<!--
+{{#md-card-collapsible}}
+
+{{#each spechlesses as |evento|}}
+    {{#md-collapsible icon="mdi-image-filter-drama"
+        title=(moment-format evento.fecha)}}
+    <ul class="collection">
+      <li class="collection-item">
+        <div class="switch">
+          <label>
+            {{evento.p1}}
+            <input type="checkbox">
+            <span class="lever"></span>
+          </label>
+        </div>
+      </li>
+      <li class="collection-item">
+        <div class="switch">
+          <label>
+            {{evento.p2}}
+            <input type="checkbox">
+            <span class="lever"></span>
+          </label>
+        </div>
+      </li>
+      <li class="collection-item">
+        <div class="switch">
+          <label>
+            {{evento.p3}}
+            <input type="checkbox">
+            <span class="lever"></span>
+          </label>
+        </div>
+      </li>
+      <li class="collection-item">
+        <div class="switch">
+          <label>
+            {{evento.p4}}
+            <input type="checkbox">
+            <span class="lever"></span>
+          </label>
+        </div>
+      </li>
+    </ul>
+    {{/md-collapsible}}
+{{/each}}
+{{/md-card-collapsible}}
+
+-->
+
+
+    <ul class="collection">
+      <li class="collection-item">
+        <div class="switch">
+          <label>
+            {{spechlesses.lastObject.p1}}
+            <input type="checkbox">
+            <span class="lever"></span>
+          </label>
+        </div>
+      </li>
+      <li class="collection-item">
+        <div class="switch">
+          <label>
+            {{spechlesses.lastObject.p2}}
+            <input type="checkbox">
+            <span class="lever"></span>
+          </label>
+        </div>
+      </li>
+      <li class="collection-item">
+        <div class="switch">
+          <label>
+            {{spechlesses.lastObject.p3}}
+            <input type="checkbox">
+            <span class="lever"></span>
+          </label>
+        </div>
+      </li>
+      <li class="collection-item">
+        <div class="switch">
+          <label>
+            {{spechlesses.lastObject.p4}}
+            <input type="checkbox">
+            <span class="lever"></span>
+          </label>
+        </div>
+      </li>
+    </ul>
+
+{{outlet}}

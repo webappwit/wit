@@ -8,8 +8,10 @@ export default {
     // },
     //
     // "key.with.interpolation": "Text with {{anInterpolation}}"
-    'welcome': 'The welcome phrase',
+    'welcome': 'Vote for your favorite speaker',
     "localeFlag": "../../images/United_Kingdom.jpg",
-    "votos": "votes"
+    "votos": "votes",
+    "next": "next",
+    "metro": "subway"
 
 };

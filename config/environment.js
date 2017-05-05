@@ -39,12 +39,7 @@ module.exports = function(environment) {
             dropdownOutDuration: 300
         },
         firebase: {
-            apiKey: "AIzaSyAl8vGq-In360wM9HKqHAfhQcZf4ahYO3k",
-            authDomain: "spechless-161a7.firebaseapp.com",
-            databaseURL: "https://spechless-161a7.firebaseio.com",
-            projectId: "spechless-161a7",
-            storageBucket: "spechless-161a7.appspot.com",
-            messagingSenderId: "343754338870"
+
         },
         contentSecurityPolicy: {
             'script-src': "'self' 'unsafe-eval' apis.google.com",

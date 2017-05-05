@@ -22,7 +22,7 @@ body {
     /* Set a background color that will be displayed
      while the background image is loading */
     background-color: $primary-color;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 @media only screen and (max-width: 767px) {

@@ -21,6 +21,12 @@ export default Ember.Controller.extend({
 
     moment: Ember.inject.service(),
 
+    edicionActual: Ember.computed('model',
+        function() {
+            return "2017-05-06 20:00";
+        }),
+
+
     locale: Ember.computed.alias('i18n.locale'),
 
     actions: {

@@ -10,28 +10,71 @@
 {{/each}}
     </ul>
   </div>
-
+<!--  
+{{#md-navbar name=(t 'votos') class='transparent' homeRoute='index'}}
+<li><a href="vota" class="waves-effect waves-light"><i class="material-icons right" title="Vota">thumb_up</i></a></li>
+{{/md-navbar}}
+-->
     <div class="row">
         <div class="col s10 m6 offset-s1 offset-m3">
-  {{#md-card title=(moment-from-now (now) interval=1000)
+  {{#md-card title="spechless"
+    titleClass="green-text"
     image="favicon.png"
-    class="card transparent white-text z-depth-5"
+    class="card transparent z-depth-5"
     activator=true
     id="card-reveal"}}
 
-    {{#md-card-content class="card-content white-text"}}
+    {{#md-card-content class="card-content"}}
+
+<p>{{t 'next'}} {{moment-from-now spechlesses.lastObject.fecha interval=1000}}</p>
+<p>{{spechlesses.lastObject.nameSala}}</p>
+<p>{{spechlesses.lastObject.adressSala}}</p>
+<p>{{spechlesses.lastObject.busInfo}}</p>
+<p>{{t 'metro'}}: {{spechlesses.lastObject.metroInfo}}</p>
+<br/>
+<p>Dale al título, a los puntos o a la imagen para acceder a los ponentes y poder dar tu voto.</p>
+<!--
     {{#md-card-action class="card-action white-text"}}
+-->
+<!--a href="vota" class="btn-floating right waves-effect waves-light green"><i class="large material-icons right" title="Vota">thumb_up</i></a-->
+<!--a href="#" class="btn-floating left waves-effect waves-light red"><i class="right" title="Vota">{{votos.length}}</i></a-->
+
 <!--
         {{#link-to "application" class='btn-floating waves-effect waves-light red' title='registro'}}<i class="large material-icons">power_settings_new</i>{{/link-to}}
         {{#link-to "application" class='btn-floating right waves-effect waves-light green' title='login'}}<i class="large material-icons">lock_outline</i>{{/link-to}}
 -->
+<!--
     {{/md-card-action}}
+-->
     {{/md-card-content}}
 
-    {{#md-card-reveal class="card-reveal black-text"}}
+    {{#md-card-reveal class="card-reveal orange lighten-3 black-text"}}
               <p>{{t 'welcome'}}</p>
-              <p>spechless: {{spechlesses.length}}</p>
-              <p>{{t 'votos'}}: {{votos.length}}</p>
+
+<!--ul class="collection">
+  <li class="collection-item">
+    spechless
+  
+    {{md-badge class='deep-orange white-text' text=spechlesses.length}}
+  
+  </li>
+  <li class="collection-item">votos
+    
+    {{#md-badge class='deep-orange white-text'}}
+    	{{votos.length}}
+    {{/md-badge}}
+
+  </li>
+  <li class="collection-item">siguiente
+    
+    {{#md-badge class='deep-orange white-text'}}
+    	{{moment-format spechlesses.lastObject.fecha}}
+    {{/md-badge}}
+
+  </li>
+
+</ul-->
+
 <!--              <p>ember install ember-cli-materialize</p>
               <p>Configurar defaults en environment.js y defaults en style.scss</p>
               <p>ember install ember-i18n</p>
@@ -43,8 +86,30 @@
               <p>Actualiza .jshintrc con moment: true y configura environment.js</p>
               <p></p>
  -->             <p></p>
-              <p></p>
+{{#md-switches
+    multiple=false
+    selection=radioSelection
+    optionValuePath='id'
+    optionLabelPath='text'}}
+{{#if spechlesses.lastObject.p1}}
+      <p>{{md-switch value=spechlesses.lastObject.p1 name=spechlesses.lastObject.p1}}</p>
+{{/if}}
+{{#if spechlesses.lastObject.p2}}
+      <p>{{md-switch value=spechlesses.lastObject.p2 name=spechlesses.lastObject.p2}}</p>
+{{/if}}
+{{#if spechlesses.lastObject.p3}}
+      <p>{{md-switch value=spechlesses.lastObject.p3 name=spechlesses.lastObject.p3}}</p>
+{{/if}}
+{{#if spechlesses.lastObject.p4}}
+      <p>{{md-switch value=spechlesses.lastObject.p4 name=spechlesses.lastObject.p4 class=transparent}}</p>
+{{/if}}
+{{/md-switches}}
+<a href="vota" class="btn-floating right waves-effect waves-light green"><i class="large material-icons right" title="Vota">thumb_up</i></a>
+
     {{/md-card-reveal}}
 {{/md-card}}
+
+
       </div>
 </div>
+{{outlet}}
